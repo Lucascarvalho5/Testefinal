@@ -4,11 +4,11 @@ import Rotas from './routes'
 
 function App() {
   return (
+    <BrowserRouter>
      <AuthProvider>
-      <BrowserRouter>
         <Rotas/>
-      </BrowserRouter>
      </AuthProvider>
+     </BrowserRouter>
   )
 }
 

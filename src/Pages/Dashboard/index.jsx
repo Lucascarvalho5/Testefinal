@@ -1,8 +1,14 @@
+import { useContext } from "react";
+import { AuthContext } from "../../contexts/auth";
 
+const Dashboard = () => {
+const {logout} = useContext(AuthContext);
 
-const Dashboard =() => {
     return (
+      <>
       <h1>DashBoard</h1>
+      <button onClick={logout}>Deslogar</button>
+      </>
     )
 };
 
