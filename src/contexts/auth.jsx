@@ -28,7 +28,7 @@ function AuthProvider({children}){
      useEffect(() => {
 
         loadStorage();
-     }, []);
+     }, );
 
 
      useEffect(() =>{

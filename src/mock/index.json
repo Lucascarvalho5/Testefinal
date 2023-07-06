@@ -1,0 +1,124 @@
+{
+   "loja": [
+    {
+      "id": 1,
+      "nome": "Laptop Dell XPS 15",
+      "preco": 6999,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/d0846612-cf0d-4404-bc26-0f4140a67358.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Smartphone iPhone 12 Pro",
+      "preco": 7999,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/71b31087-30c8-4c2e-8ab5-62ef4c22e36a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Smart TV Samsung QLED 55'",
+      "preco": 3499,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/e714b2a5-7d86-45a9-8994-782f4f20a8a7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Console de videogame PlayStation 5",
+      "preco": 4999,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/377243d1-0f83-41c8-b2b0-8b8de43cd8fc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Câmera DSLR Canon EOS 80D",
+      "preco": 4199,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/3a19d970-92dc-415f-afaf-06e6c0dfb450.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Fone de ouvido sem fio Sony WH-1000XM4",
+      "preco": 1299,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/0028ae49-5a22-46c5-9a27-e3604555cc83.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Tablet Apple iPad Air",
+      "preco": 4299,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/eab6587f-8e72-4dba-9e0b-f8b885297696.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Monitor gamer ASUS ROG Swift PG279Q",
+      "preco": 2999,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/8eae0505-b323-4c49-a185-350dfff3f8c6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Roteador Wi-Fi TP-Link Archer AX6000",
+      "preco": 999,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/c79fd2fa-5b51-4d95-8b99-a59f8965d326.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Impressora multifuncional Epson EcoTank L3150",
+      "preco": 1499,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/e5fa114d-8873-4026-95e1-1f4a863625ce.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Headset gamer Razer Kraken Ultimate",
+      "preco": 799,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/7975a809-1027-4850-b35c-5770c2c8f9ab.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Teclado mecânico Corsair K70 RGB",
+      "preco": 699,
+      "imagens": [
+        {
+          "url": "https://infracode.blob.core.windows.net/imagens/6b2c9f71-f399-403b-accc-161138e69f71.jpg"
+        }
+      ]
+    }
+  ]
+}
