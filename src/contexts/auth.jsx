@@ -1,7 +1,7 @@
 import {useState, useEffect, createContext} from 'react';
 import { db, auth } from '../services/firebaseConnection';
-import {doc, setDoc} from 'firebase/firestore';
-import { createUserWithEmailAndPassword, signOut } from "firebase/auth";
+import {doc, setDoc, getDoc} from 'firebase/firestore';
+import { createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword, } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext({});
@@ -72,13 +72,47 @@ function AuthProvider({children}){
         })
      }
 
+    
+     async function signIn (email, password){
+
+        setLoadingAuth(true);
+
+        await signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
+
+            const {user:{uid}} = userCredential;
+
+            getDoc(doc(db, "users", uid)).then((userInfo) => {
+                const userInfoData = userInfo.data();
+                const data = {
+                    uid,
+                    name: userInfoData.nome,
+                    email,
+                    avatarUrl: userInfoData.avatarUrl
+                };
+
+                setUser(data);
+                storageUser(data);
+
+            }).catch((error) => {
+                alert("Ocorreu algum erro ao acessar dados do usuário")
+                console.error(error);
+            });
+
+        }).catch((error) => {
+            alert('Ocorreu um erro ao logar usuario!')
+            console.error(error);
+        }).finally(()=> setLoadingAuth(false));
+
+     }
+
+
     function storageUser(data) {
         const userStringify = JSON.stringify(data);
         localStorage.setItem('sistema', userStringify)
     }
 
      return(
-        <AuthContext.Provider value={{ signed: !!user, user, loading, loadingAuth, logout, signUp}}>
+        <AuthContext.Provider value={{ signed: !!user, user, loading, loadingAuth, logout, signIn, signUp}}>
             {children}
         </AuthContext.Provider>
     )

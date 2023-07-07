@@ -1,18 +1,22 @@
 import { useState } from "react";
+//import { useState } from "react";
 //import { AuthContext } from "../../contexts/auth";
 import Loja from '../../mock/index.json'
 
 
 
-//const {logout} = useContext(AuthContext);
-            
+//const {logout} = useContext (AuthContext);
+// const {products, loja, setProducts, loading, setLoading} = useState([Loja]);
+
 function Dashboard() {
 
-  // const {products, loja, setProducts, loading, setLoading} = useState([Loja]);
+  
 const [{ loja }] = useState(Loja);
+
    return (
      <div>
-       <h1>CONTEXTAPI</h1>
+      
+       <h1>Infra Shop</h1>
        <ul>
          {loja.map((item)=>{
            return (
