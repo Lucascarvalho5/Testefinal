@@ -4,11 +4,11 @@ import {BsCartCheck} from "react-icons/bs";
 
 function CartButton() {
     return (
-        <button type="button" className="cart__button">
+        <div  className="cart__button">
             <button className="btn_cart"><BsCartCheck/>
             <span className="cart-status">1</span>
             </button>
-        </button>
+        </div>
     )
 }
 

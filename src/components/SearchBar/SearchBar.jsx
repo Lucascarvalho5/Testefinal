@@ -1,6 +1,6 @@
 import React, {useState}from "react";
 import { GoSearch } from "react-icons/go";
-
+import './SearchBar.css';
 //import "../../Pages/Dashboard/index.css"
 import CartButton from "../CartButton/CartButton";
 
@@ -9,7 +9,7 @@ function SearchBar() {
 
     return (
         
-    <form>
+    <form className="busca">
         <input
            type="search" 
            value={searchValue}
@@ -19,8 +19,8 @@ function SearchBar() {
         />
          <button type="submit" className="search__button">
              <GoSearch/>
+             </button>
              <CartButton/>
-          </button>
         
     </form>
 

@@ -1,115 +1,27 @@
-.hear {
+.dashboard .produto {
+  background-color: brown;
   display: flex;
-  background-color: #08f1e6;
-  
-}
+  flex-wrap: wrap;
+  }
 
-header {
-  background-color: #f10808;
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: 20% 20% 20%;
-}
+  .dashboard .product{
+    width: 25%;
+    text-align: center;
+    margin: 0px 0px 7px;
+  }
 
-form {
-  background-color: #4169E1;
-  position: fixed;  
-  width: 100%;
-  z-index: 1;
-}
+  .dashboard .product_item {
+    width: 99%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    display: inline-block;
+  }
 
-.container_header {
-   
-    position: fixed;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #181c2e;
-}
-.btn_cart {
-  width: 150px;
-  margin: 0 auto;
-  background-color: #e19641;
-  position: relative;
-  
-}
-
-ul:hover {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-ul:hover button {
-  display:flex ;
-}
-
-ul {
-  background-color: rgb(24, 227, 54);
-  width: 100%;
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
-}
-
-ul button {
- 
- border-radius: 50px;
- border: none;
- background: rgba(255, 255, 255, 0.8);
- display: none;
-  right: 0;
-  width: 45px;
-  height: 45px;
-  margin: 12px 15px;
-}
-
-ul img {
-  width: 100%;
-}
-
-ul h2 {
-  color: rgb(24, 22, 61);
-  padding: 20px;
-  border-top: 1px solid #ddd;
-}
-
-.btn_car {
-  width: 150px;
-  margin: 0 auto;
-  background-color: #e21c89;
-
- 
-}
-
-
-.cart-status {
-  background-color: red;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 0;
-  left:0;
-  font-size: 11px;
-  font-weight: 600;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search__button {
-  width: 150px;
-  margin: 0 auto;
-  background-color: #08f1e6;
-
-
-
-}
-
-.search__input {
-  
-  width: 150px;
-  margin: 0 auto;
-}
-
+  .dashboard .product_item h2 {
+      font-size: 16px;
+      line-height: 18px;
+      height: 36px;
+      overflow: hidden;
+  }

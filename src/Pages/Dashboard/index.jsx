@@ -16,25 +16,29 @@ function Dashboard() {
 const [{ loja }] = useState(Loja);
 
    return (
+    <div className="dashboard" >
     <header >
       <SearchBar/>
-      <ul>
+      </header>
+      <ul className="produto" >
          {loja.map((item)=>{
            return (
-             <li key={item.id}>
+             <li className='product' key={item.id}>
+              <div className="product_item">
+               
+               <img src={item.imagens[0].url} width={200} height={150} alt={item.nome}/>
                <h2>{item.nome}</h2>
-               <h1>{item.preco.toLocaleString('pt-br', {
+               <p>{item.preco.toLocaleString('pt-br', {
                 style: 'currency',
                 currency: 'BRL',
-               })}</h1>
-               <img src={item.imagens[0].url} width={200} height={150} alt={item.nome}/>
+               })}</p>
                <button className="btn_car"><BsCartCheck/> </button>
+               </div>
              </li>
            )
          })}
-       </ul>
- 
-     </header>
+         </ul>
+     </div>
    )
         };
 

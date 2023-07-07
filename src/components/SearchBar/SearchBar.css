@@ -1,0 +1,15 @@
+.busca {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    width: 100%;
+}
+
+.busca .search__button{
+    background-color: blue;
+}
+
+.busca .btn_cart {
+    background-color: aquamarine;
+}
