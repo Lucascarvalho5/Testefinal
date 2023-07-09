@@ -2,7 +2,6 @@ import React, {Suspense} from 'react';
 import {Route, Routes} from 'react-router-dom';
 import SignIn from '../Pages/Signin';
 import SignUp from '../Pages/Signup';
-import PrivateOutlet from './PrivateOutlet';
 import Dashboard from '../Pages/Dashboard';
 import Cart from '../Pages/Cart/Cart';
 
@@ -16,7 +15,7 @@ const Rotas = () => {
                </div>}>
                     <Dashboard />
                </Suspense>
-                
+              
                 } />
                 <Route path="/carrinho" element={<Cart/>}/>
                 <Route path="/" element={<SignIn/>} />

@@ -2,8 +2,6 @@ import { useState } from "react";
 import Loja from '../../mock/index.json'
 import './index.css';
 import SearchBar from "../../components/SearchBar/SearchBar";
-import {BsCartCheck} from "react-icons/bs"; 
-import {Link} from 'react-router-dom';
 import { getItem, setItem } from "../Services/LocalStorage";
 import{BsFillCartPlusFill, BsFillCartCheckFill} from 'react-icons/bs'
 
@@ -39,14 +37,14 @@ const handleClick = (Loja) => {
               <div className="product_item">
                
                <img src={item.imagens[0].url} width={200} height={150} title={item.descricao} alt={item.nome}/>
-               <h2>{item.nome}</h2>
+               <h2>{item.nome} </h2>
                <p>{item.preco.toLocaleString('pt-br', {
                 style: 'currency',
                 currency: 'BRL',
                })}</p>
-              <button
-        onClick={() =>  handleClick(item)}
-        >
+              <button className="addcart" 
+        onClick={() =>  handleClick(item) }
+       >
         {
                 cart.some((itemCart) => itemCart.id === item.id)? (
                   <BsFillCartCheckFill/>

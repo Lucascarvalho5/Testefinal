@@ -27,15 +27,30 @@
   }
 
   .dashboard .product_item .btn_car{
-    background-color: rgb(100, 56, 176);
+    background-color: #282c34;
     height: 30px;
     width: 30px;
     border: 0;
     border-radius: 7px;
-    color: #FFF;
+    color: black;
     font-size: 1.3em;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
   }
+
+  .dashboard .addcart {
+    background-color: #282c34;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 7px;
+    color: rgb(244, 240, 240);
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 

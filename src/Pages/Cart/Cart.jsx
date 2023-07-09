@@ -3,19 +3,23 @@ import { Link } from "react-router-dom";
 import {Route, Routes} from 'react-router-dom';
 import { getItem, setItem } from "../Services/LocalStorage";
 import {BsFillCartDashFill} from 'react-icons/bs';
+import './Cart.css';
 
 export const Cart = () => {
    const [Loj, setLoj] = useState(getItem('carrinhoYT')  || [])
    const excluirItem = (loja) => {
         const arrFilter = Loj.filter((item) =>item.id !== loja.id)
         setLoj(arrFilter)
-        setItem ('carrinhYT',arrFilter)
+        setItem ('carrinhoYT',arrFilter)
    }
-
+     
 
    return(
-      <div>
+    
+      <div className="cart">
+        <header>
       <h1>Carrinho</h1>
+      </header>
       <div>
         {
           Loj.map((item) => (
