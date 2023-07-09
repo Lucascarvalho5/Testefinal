@@ -2,6 +2,7 @@
    "loja": [
     {
       "id": 1,
+      "descricao": "Laptop poderoso com tela de 15 polegadas, processador Intel Core i7, 16 GB de RAM e armazenamento SSD de 512 GB.",
       "nome": "Laptop Dell XPS 15",
       "preco": 6999,
       "imagens": [
@@ -12,6 +13,7 @@
     },
     {
       "id": 2,
+      "descricao": "Smartphone de última geração da Apple com tela OLED de 6,1 polegadas, câmera tripla de 12 MP e capacidade de armazenamento de 128 GB.",
       "nome": "Smartphone iPhone 12 Pro",
       "preco": 7999,
       "imagens": [
@@ -22,6 +24,7 @@
     },
     {
       "id": 3,
+      "descricao": "Televisor de alta definição com tela QLED de 55 polegadas, resolução 4K, suporte a HDR e tecnologia de Smart TV integrada.",
       "nome": "Smart TV Samsung QLED 55'",
       "preco": 3499,
       "imagens": [
@@ -32,6 +35,7 @@
     },
     {
       "id": 4,
+      "descricao": "Console de última geração da Sony, com suporte a jogos em 4K, 8 GB de RAM, unidade de armazenamento SSD de 825 GB e controle sem fio.",
       "nome": "Console de videogame PlayStation 5",
       "preco": 4999,
       "imagens": [
@@ -42,6 +46,7 @@
     },
     {
       "id": 5,
+      "descricao": "Câmera digital DSLR com sensor de 24,2 MP, tela articulada, gravação de vídeo em Full HD e conectividade Wi-Fi.",
       "nome": "Câmera DSLR Canon EOS 80D",
       "preco": 4199,
       "imagens": [
@@ -52,6 +57,7 @@
     },
     {
       "id": 6,
+      "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído, microfone integrado, bateria de longa duração e som de alta qualidade.",
       "nome": "Fone de ouvido sem fio Sony WH-1000XM4",
       "preco": 1299,
       "imagens": [
@@ -62,6 +68,7 @@
     },
     {
       "id": 7,
+      "descricao": "Tablet fino e leve da Apple, com tela de 10,9 polegadas, chip A14 Bionic, suporte a Apple Pencil e Touch ID integrado.",
       "nome": "Tablet Apple iPad Air",
       "preco": 4299,
       "imagens": [
@@ -72,6 +79,7 @@
     },
     {
       "id": 8,
+      "descricao": "Monitor gamer de 27 polegadas com resolução WQHD, taxa de atualização de 165 Hz, tempo de resposta de 4 ms e tecnologia G-SYNC.", 
       "nome": "Monitor gamer ASUS ROG Swift PG279Q",
       "preco": 2999,
       "imagens": [
@@ -82,6 +90,7 @@
     },
     {
       "id": 9,
+      "descricao": "Roteador de alta velocidade com suporte a Wi-Fi 6, velocidades de até 6000 Mbps, tecnologia Beamforming e múltiplas portas Ethernet.",
       "nome": "Roteador Wi-Fi TP-Link Archer AX6000",
       "preco": 999,
       "imagens": [
@@ -92,6 +101,7 @@
     },
     {
       "id": 10,
+      "descricao": "Impressora multifuncional com tanques de tinta recarregáveis, conectividade Wi-Fi, impressão colorida de alta qualidade e scanner.",
       "nome": "Impressora multifuncional Epson EcoTank L3150",
       "preco": 1499,
       "imagens": [
@@ -102,6 +112,7 @@
     },
     {
       "id": 11,
+      "descricao": "Headset gamer com som surround 7.1, iluminação RGB personalizável, microfone retrátil e conforto ergonômico para longas sessões de jogo.",
       "nome": "Headset gamer Razer Kraken Ultimate",
       "preco": 799,
       "imagens": [
@@ -112,6 +123,7 @@
     },
     {
       "id": 12,
+      "descricao": "Teclado mecânico para jogos com retroiluminação RGB, switches Cherry MX, teclas programáveis e estrutura de alumínio resistente.",
       "nome": "Teclado mecânico Corsair K70 RGB",
       "preco": 699,
       "imagens": [
