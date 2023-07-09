@@ -14,12 +14,16 @@ function SearchBar() {
     }
 
     return (
-    <div >
+    <div className='searchbar'>
       <header>
       <h2>Infra Shop</h2>
       <button>
       <Link to="/carrinho">Seu carrinho</Link>
       </button>
+      <button>
+      <Link to="/">Sair</Link>
+      </button>
+
       </header>
    </div>
     )

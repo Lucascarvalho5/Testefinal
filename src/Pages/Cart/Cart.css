@@ -13,4 +13,9 @@ header {
     color: rgb(255, 115, 0);
 }
 
+.button .remove {
+    color: antiquewhite;
+    background-color: aquamarine;
+}
+
 

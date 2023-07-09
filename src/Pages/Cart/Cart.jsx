@@ -12,6 +12,8 @@ export const Cart = () => {
         setLoj(arrFilter)
         setItem ('carrinhoYT',arrFilter)
    }
+
+   const subTotal = Loj.reduce((acc,cur) => acc + cur.preco, 0)
      
 
    return(
@@ -19,6 +21,7 @@ export const Cart = () => {
       <div className="cart">
         <header>
       <h1>Carrinho</h1>
+      <h3>{`subTotal: R$ ${subTotal}`}</h3>
       </header>
       <div>
         {
@@ -30,7 +33,7 @@ export const Cart = () => {
                 style: 'currency',
                 currency: 'BRL',
                })}</p>
-           < button onClick={()=> excluirItem(item)}>
+           < button className="remove" onClick={()=> excluirItem(item)}>
            <BsFillCartDashFill/>
            </button>
             </div>
