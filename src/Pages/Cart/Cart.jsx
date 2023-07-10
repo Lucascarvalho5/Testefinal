@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import {Route, Routes} from 'react-router-dom';
 import { getItem, setItem } from "../Services/LocalStorage";
 import {BsFillCartDashFill} from 'react-icons/bs';
 import './Cart.css';
